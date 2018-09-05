@@ -23,7 +23,7 @@ public class RegisterActivity extends AppCompatActivity {
                 Intent loginIntent = new Intent(getApplicationContext(),LoginActivity.class);
                 startActivity(loginIntent);
             }
-        });///
+        });/////
 
         TextView loginText = (TextView) findViewById(R.id.login_register_textView);
         loginText.setOnClickListener(new View.OnClickListener(){
