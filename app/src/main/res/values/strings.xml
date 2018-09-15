@@ -14,4 +14,14 @@
     <string name="register_button_text">Sign up for MyTrash</string>
     <string name="loginreg_text">Already have an account? Login here</string>
     <string name="loginbutton_text">Login to MyTrash</string>
+    <string name="navigate_home">Set Home</string>
+    <string name="navigate_trashbin">Trashbin</string>
+    <string name="navigate_schedule">Schedule</string>
+    <string name="navigate_report">Report</string>
+    <string name="logout_home_text">Logout</string>
+    <string name="image_report_fromcamera">This is the image from camera</string>
+    <string name="done_report_text">Done</string>
+    <string name="back_report_text">Back</string>
+    <string name="message_report_editText">Enter message</string>
+    <string name="email_address_text">Enter email address</string>
 </resources>

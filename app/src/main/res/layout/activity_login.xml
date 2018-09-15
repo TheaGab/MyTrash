@@ -4,19 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_blue_dark"
-    tools:context=".LoginActivity">
+    android:background="@android:color/holo_blue_light"
+    tools:context=".login.LoginActivity">
 
     <EditText
         android:id="@+id/username_login_editText"
         android:layout_width="0dp"
-        android:layout_height="40dp"
+        android:layout_height="45dp"
         android:layout_marginEnd="10dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="32dp"
         android:background="@android:color/background_light"
         android:ems="10"
-        android:hint="@string/username_hint"
+        android:hint="@string/email_text"
         android:inputType="textEmailAddress"
         android:paddingLeft="15dp"
         android:paddingRight="15dp"
@@ -28,10 +28,10 @@
     <EditText
         android:id="@+id/password_login_editText"
         android:layout_width="0dp"
-        android:layout_height="40dp"
+        android:layout_height="45dp"
         android:layout_marginEnd="10dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:background="@android:color/background_light"
         android:ems="10"
         android:hint="@string/password_hint"
@@ -45,16 +45,14 @@
 
     <ImageView
         android:id="@+id/loginlogo_login_imageView"
-        android:layout_width="153dp"
-        android:layout_height="108dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="352dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="8dp"
         android:contentDescription="@string/logo_login_desc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/ic_launcher" />
+        app:srcCompat="@drawable/wihtoutbg1" />
 
     <Button
         android:id="@+id/login_login_button"
@@ -62,15 +60,11 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="10dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:background="@color/colorPrimaryDark"
-        android:fontFamily="monospace"
         android:text="@string/loginbutton_text"
-        android:textAllCaps="@bool/textAllCaps_loginbutton"
         android:textColor="@android:color/background_light"
         android:textSize="18sp"
-        android:textStyle="bold"
-        android:typeface="normal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -98,11 +92,12 @@
         android:layout_marginBottom="32dp"
         android:layout_marginEnd="10dp"
         android:clickable="true"
+        android:focusable="true"
         android:text="@string/forgpassword_text"
         android:textColor="@android:color/background_light"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:text="@string/forgpassword_text"
-        android:focusable="true" />
+        tools:text="@string/forgpassword_text" />
+
 </android.support.constraint.ConstraintLayout>
